@@ -3,7 +3,7 @@ services:
     flasky:
         image: flaskprueba:latest
         volumes:
-            - C:\Users\ruperez\Documents\GitHub\Flask_products_app:/app
+            - /Users/ruben/Documents/GitHub/Flask_products_app:/app
         ports:
             - "5000:5000"
         environment:
